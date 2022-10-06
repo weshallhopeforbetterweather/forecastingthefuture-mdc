@@ -1,0 +1,74 @@
+@font-face {
+    font-family: "myfont";
+    src: url("fonts/classic-roman-std-regular.woff") format('woff');
+}
+
+body,
+html {
+    height: 100%;
+    font-size: 11.8px;
+}
+
+.bg {
+    /* The image used */
+    background-image: url('assets/background.jpg');
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: myfont;
+}
+
+.centeredContainer {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainText{
+    text-align: center; 
+}
+
+h4{
+    color: white;
+}
+
+h4{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+}
+
+.headerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+.footerImage {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
